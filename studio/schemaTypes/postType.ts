@@ -45,8 +45,11 @@ export const postType = defineType({
             list: [
               {title: 'React', value: 'react'},
               {title: 'Next.js', value: 'nextjs'},
+              {title: 'JavaScript', value: 'Javascript'},
               {title: 'TypeScript', value: 'typescript'},
               {title: 'Tailwind CSS', value: 'tailwind'},
+              {title: 'styled-components', value: 'styled-components'},
+              {title: 'react-responsive', value: 'react-responsive'},
               {title: 'Supabase', value: 'supabase'},
               {title: 'Zustand', value: 'zustand'},
               {title: 'redux', value: 'redux'},
