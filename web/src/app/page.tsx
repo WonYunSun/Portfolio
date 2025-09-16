@@ -1,6 +1,5 @@
-import { HeroComp } from "./components/HeroComp";
-import { ProjectSectionComp } from "./components/ProjectSectionComp";
-
+import { HeroComp } from "../components/HeroComp";
+import { ProjectSectionComp } from "../components/ProjectSectionComp";
 
 export default function Home() {
   return (
