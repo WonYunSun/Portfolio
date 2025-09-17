@@ -69,6 +69,7 @@
     --color-gray-700: oklch(37.3% .034 259.733);
     --color-gray-800: oklch(27.8% .033 256.848);
     --color-gray-900: oklch(21% .034 264.665);
+    --color-opacity-black-6: oklch(25% 0 0 / 6%);
     --color-black: #000;
     --color-white: #fff;
 }
@@ -147,3 +148,5 @@
     font-family: var(--font-presentation);
   }
 }
+
+@custom-variant hover (&:hover);
